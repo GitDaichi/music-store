@@ -5,7 +5,7 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-
+    overflow-x: hidden;
 }
 /* .section-1{
     min-height: 100vh;
@@ -34,7 +34,7 @@ body{
 .hero{
     position: relative;
     height:calc(100vh - 122.81px);
-    overflow: hidden;
+    
 }
 .background-hero{
     position:absolute;
@@ -53,12 +53,58 @@ body{
     z-index: 2;
     position:relative;
     text-align: center;
-    top: 40%;
-    transform: translateY(50%);
+    top: 30%;
+    transform: translateY(30%);
     color:white;
     font-size: 16px;
 
 }
-.background-content .headlines{
-    font-size: 16px;
+.background-content{
+    font-size: 25px;
+    text-transform: uppercase;
+    line-height: 50px;
+    text-align: center;
+}
+
+/* section 2 */
+.section-2 .container-2{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    gap:50px;
+    padding: 20px 100px;
+
+}
+.section-2 .container-2 .left-container{
+    width:50vw;
+    height:75vh;
+    background-image: url(assets/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    border-radius: 10px;
+    
+   
+    
+}
+.section-2 .container-2 .right-container{
+    width:50vw;
+    height:70vh;
+    text-align: left;
+}
+.section-2 .container-2 .right-container .right-headline{
+    font-size: 42px;
+    letter-spacing: 1.5px;
+    height:20vh;
+    text-transform: uppercase;
+}
+.section-2 .container-2 .right-container .sub-headline{
+    font-size: 32px;
+    height:10vh;
+}
+.section-2 .container-2 .right-container .right-content{
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: 1.5px;
 }
