@@ -29,7 +29,9 @@ body{
     list-style: none;
     margin:20px;
     padding:10px;
-    
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 2px;
 }
 .hero{
     position: relative;
@@ -79,7 +81,7 @@ body{
 .section-2 .container-2 .left-container{
     width:50vw;
     height:75vh;
-    background-image: url(assets/about.jpg);
+    background-image: url(assets/about-us.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
@@ -107,4 +109,91 @@ body{
     font-size: 24px;
     line-height: 40px;
     letter-spacing: 1.5px;
+}
+.section-3{
+    width:100vw;
+    height:100vh;
+    display:grid;
+    justify-content: center;
+    align-content: center;
+}
+.section-3 .container-3{
+
+   display:grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap:50px;
+   padding:20px;
+   
+}
+.section-3 .container-3 .product{
+   width:350px;
+   height:350px;
+   
+   
+}
+.section-3 .product-title{
+    text-align: center;
+    font-size: 42px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 25px 0px;
+
+}
+.item-1{
+    background-image: url(assets/ludwig.jpg);
+    background-position: center;
+    background-size: cover;
+    height:200px;  
+    border-radius: 10px;
+    
+}
+.item-2{
+    background-image: url(assets/mapex.jpg);
+    background-position: center;
+    background-size: cover;
+    height:200px;  
+    border-radius: 10px;
+}
+.item-3{
+    background-image: url(assets/pearl.jpg);
+    background-position: center;
+    background-size: cover;
+    height:200px;  
+    border-radius: 10px;
+}
+.item-4{
+    background-image: url(assets/sjc.jpg);
+    background-position: center;
+    background-size: cover;
+    height:200px;
+    border-radius: 10px; 
+}
+.item-5{
+    background-image: url(assets/yamaha.jpg);
+    background-position: center;
+    background-size: cover;
+    height:200px;  
+    border-radius: 10px;
+}
+.item-6{
+    background-image: url(assets/yamaha\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    height:200px;  
+    border-radius: 10px;
+}
+.item-name{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 15px 0px;
+}
+.item-price{
+    font-size: 16px;
+    padding: 5px 0px;
+}
+.item-detail{
+    font-size: 12px;
+    line-height: 18px;
+    padding: 5px 0px;
 }
