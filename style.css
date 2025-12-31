@@ -6,6 +6,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden;
+    
 }
 /* .section-1{
     min-height: 100vh;
@@ -36,6 +37,7 @@ body{
 .hero{
     position: relative;
     height:calc(100vh - 122.81px);
+    
     
 }
 .background-hero{
@@ -196,4 +198,27 @@ body{
     font-size: 12px;
     line-height: 18px;
     padding: 5px 0px;
+}
+.section-4{
+   
+   margin:0 auto;
+    
+}
+.contact-title{
+    text-align: center;
+    font-size:42px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 25px 0px;
+}
+.container-4{
+     margin:0 auto;
+     width:600px;
+     padding:30px 50px;
+    display:grid;
+    grid-template-rows: 50px 200px;
+}
+
+.textarea{
+    margin: 10px 0px;
 }
